@@ -254,6 +254,22 @@ If you find this extension helpful, consider buying me a coffee! Your support ke
 
 ---
 
+## 🔒 Security
+
+This project prioritizes user data security and privacy:
+
+- **Encrypted Storage:** OAuth credentials are encrypted using VS Code SecretStorage
+- **Local Execution:** All operations run locally; no code or project files are uploaded
+- **Privacy First:** Telemetry is disabled by default; users must opt-in
+- **HTTPS Communications:** All external API calls use HTTPS encryption
+- **Security Audits:** Regular security audits and vulnerability scans
+
+**Security Reports:** If you discover a security issue, please see [SECURITY.md](SECURITY.md) for responsible disclosure guidelines.
+
+**Full Security Audit Report:** [SECURITY_AUDIT_REPORT.md](SECURITY_AUDIT_REPORT.md)
+
+---
+
 ## Disclaimer
 
 This project is intended for personal learning and research purposes only. By using this project, you agree to:
