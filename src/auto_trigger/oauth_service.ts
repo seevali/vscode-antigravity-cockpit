@@ -14,7 +14,13 @@ import { t } from '../shared/i18n';
 
 // Antigravity OAuth 配置
 const ANTIGRAVITY_CLIENT_ID = '1071006060591-tmhssin2h21lcre235vtolojh4g403ep.apps.googleusercontent.com';
+
+// ⚠️ SECURITY WARNING: This client secret is currently hardcoded and publicly visible.
+// ⚠️ CRITICAL VULNERABILITY: This secret should be moved to environment variables or secure configuration.
+// ⚠️ TODO: Remove this hardcoded secret and implement proper OAuth credential management.
+// ⚠️ See SECURITY_AUDIT_REPORT.md for details and remediation steps.
 const ANTIGRAVITY_CLIENT_SECRET = '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';
+
 const ANTIGRAVITY_SCOPES = [
     'https://www.googleapis.com/auth/cloud-platform',
     'https://www.googleapis.com/auth/userinfo.email',
